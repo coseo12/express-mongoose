@@ -1,0 +1,25 @@
+{
+  "name": "express-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13"
+  }
+}
