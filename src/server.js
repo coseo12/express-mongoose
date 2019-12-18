@@ -7,10 +7,9 @@ import UserModel from './models/UserModel.js';
 // mongo db
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-mongoose.connect(
-  'mongodb+srv://test:1234@cluster0-cog7s.mongodb.net/test?retryWrites=true&w=majority',
-  { useNewUrlParser: true },
-);
+mongoose.connect('mongodb+srv://아이디:비밀번호@경로', {
+  useNewUrlParser: true,
+});
 mongoose.Promise = global.Promise;
 
 const app = express();
